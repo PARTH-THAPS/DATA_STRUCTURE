@@ -1,0 +1,13 @@
+# Ignore compiled class files
+*.class
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore build output folders (Maven/Gradle)
+target/
+out/
+
+# Ignore logs and temp files
+*.log
+*.tmp
