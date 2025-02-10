@@ -8,10 +8,8 @@ public class InsertionSort {
         System.out.println();
     }
 
-
     public static void main(String[] args) {
         int[] arr = {7, 8, 3, 1, 2};
-
         for(int i = 1; i < arr.length; i++) {
             int temp = arr[i];
             int j = i - 1;
@@ -19,10 +17,7 @@ public class InsertionSort {
                 arr[j + 1] = arr[j];
                 j--;
             }
-
             arr[j + 1] = temp;
-
-
         }
 
         printArray(arr);  // Final sorted array
