@@ -20,7 +20,7 @@ public class InsertNodeLast {
         if(head==null)
         {
             head=newNode;
-            return
+            return;
         }
 
 
